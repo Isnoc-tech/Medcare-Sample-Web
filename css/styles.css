@@ -68,6 +68,12 @@ p {
   font-family: "Montserrat-Light";
 }
 
+.navbar-dark .navbar-brand{
+  color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #000000;
+}
 
 /* Buttons */
 
