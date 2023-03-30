@@ -165,6 +165,10 @@ p {
   text-align: right;
 }
 
+#lanka-content{
+  text-align: left;
+}
+
 #asiri-pic{
   width: 40%;
   display: block;
