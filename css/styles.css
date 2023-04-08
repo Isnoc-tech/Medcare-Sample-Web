@@ -155,7 +155,7 @@ p {
 }
 
 #lanka-pic{
-  width: 40%;
+  /* width: 40%; */
   display: block;
   margin-left: auto;
   border-radius: 25px;
@@ -198,7 +198,7 @@ p {
 .card{
   border-radius: 25px;
 }
-/* CTA Section */
+
 
 
 /* Footer Section */
