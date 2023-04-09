@@ -68,6 +68,12 @@ p {
   font-family: "Montserrat-Light";
 }
 
+.navbar-dark .navbar-brand{
+  color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #000000;
+}
 
 /* Buttons */
 
@@ -149,7 +155,7 @@ p {
 }
 
 #lanka-pic{
-  width: 40%;
+  width: 70%;
   display: block;
   margin-left: auto;
   border-radius: 25px;
@@ -159,10 +165,14 @@ p {
   text-align: right;
 }
 
+#lanka-content{
+  text-align: left;
+}
+
 #asiri-pic{
-  width: 40%;
+  width: 70%;
   display: block;
-  margin-right: auto;
+  margin-left: 30%;
   border-radius: 25px;
 }
 
@@ -185,7 +195,10 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA Section */
+.card{
+  border-radius: 25px;
+}
+
 
 
 /* Footer Section */
