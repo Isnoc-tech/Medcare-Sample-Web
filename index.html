@@ -1,267 +1,290 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MedCare</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>MedCare</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script
+      src="https://kit.fontawesome.com/38f42574c5.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
 
-  <section class="colored-section" id="title">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">MEDCARE</a>
 
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <a class="navbar-brand" href="">MEDCARE</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">PLANS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reviews">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">PLANS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">LOGIN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">SIGN UP</a>
-            </li>
-          </ul>
+        <!-- Title -->
 
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">HEALTHCARE UPGRADED.</h1>
+          </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
+    <!-- Features -->
 
-      <!-- Title -->
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <!-- <h3 class="feature-title">Easy to use.</h3> -->
+            <p>Largest Centralized Medical Records Database in Sri Lanka</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <!-- <h3 class="feature-title">Accurate Data</h3> -->
+            <p>Real-Time Updates</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <!-- <h3 class="feature-title">Time Saving.</h3> -->
+            <p>Advanced Security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="colored-section" class="reviews">
+      <div class="container-fluid d-flex flex-row" id="lanka-content">
+        <div style="width: 40%">
+          <h2>Lanka Hospital</h2>
+          <p>
+            "MedCare has been an invaluable partner for our hospital. Their
+            expertise in healthcare technology has helped us streamline our
+            operations and improve patient care. Their team is responsive,
+            knowledgeable, and always willing to go the extra mile to ensure
+            that we have the support we need. We highly recommend MedCare to any
+            hospital looking to enhance their technology capabilities."
+          </p>
+
+          <p>-Rivin Leeniya</p>
+        </div>
+        <div style="width: 60%">
+          <img src="images/Lanka.jpeg" id="lanka-pic" alt="Lanka Hospital" />
+        </div>
+      </div>
+    </section>
+
+    <section class="white-section" id="reviews">
+      <div class="container-fluid d-flex flex-row" id="asiri-content">
+        <div style="width: 40%">
+          <h2>Asiri Hospital</h2>
+          <p>
+            "Working with MedCare has been a great experience for our hospital.
+            Their platform is user-friendly and intuitive, making it easy for
+            our staff to manage patient records and communicate with one
+            another. We have seen significant improvements in efficiency and
+            patient satisfaction since implementing MedCare's technology. Their
+            team is highly professional and responsive, and we would highly
+            recommend their services.
+          </p>
+
+          <p>-Sandeepa Jayasooriya</p>
+        </div>
+        <div style="width: 60%">
+          <img src="images/Asiri.jpeg" id="asiri-pic" alt="Lanka Hospital" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="colored-section" id="pricing">
+      <h2 class="section-heading">Plans</h2>
+      <p>Choose the plan that suits you.</p>
 
       <div class="row">
-
-        <div class="col-lg-6">
-          <h1 class="big-heading">HEALTHCARE UPGRADED.</h1>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- Features -->
-
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <!-- <h3 class="feature-title">Easy to use.</h3> -->
-          <p>Largest Centralized Medical Records Database in Sri Lanka</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <!-- <h3 class="feature-title">Accurate Data</h3> -->
-          <p>Real-Time Updates</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <!-- <h3 class="feature-title">Time Saving.</h3> -->
-          <p>Advanced Security</p>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-
-  <section class="colored-section" class="reviews">
-    <div class="container-fluid" id="lanka-content">
-
-      <h2>Lanka Hospital</h2>
-      <p>
-        "MedCare has been an invaluable partner for our hospital. Their expertise in healthcare technology has helped us streamline our operations and improve patient care. 
-        Their team is responsive, knowledgeable, 
-        and always willing to go the extra mile to ensure that we have the support we need. We highly recommend MedCare to any hospital looking to enhance their technology capabilities."
-      </p>
-
-      <p>-Rivin Leeniya</p>
-
-      <img src="images/Lanka.jpeg" id="lanka-pic" alt="Lanka Hospital">
-    </div>
-
-  </section>
-
-  <section class="white-section" id="reviews">
-    <div class="container-fluid">
-
-
-      <div id="asiri-content">
-        <h2>Asiri Hospital</h2>
-        <p>
-          "Working with MedCare has been a great experience for our hospital. Their platform is user-friendly and intuitive, 
-          making it easy for our staff to manage patient records and communicate with one another. 
-          We have seen significant improvements in efficiency and patient satisfaction since implementing MedCare's technology. 
-          Their team is highly professional and responsive, and we would highly recommend their services.
-        </p>
-
-        <p>-Sandeepa Jayasooriya</p>
-      </div>
-      <img src="images/Asiri.jpeg" id="asiri-pic" alt="Lanka Hospital">
-    </div>
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section class="colored-section" id="pricing">
-
-    <h2 class="section-heading">Plans</h2>
-    <p>Choose the plan that suits you.</p>
-
-    <div class="row">
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Medcare</h3>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Medcare</h3>
+            </div>
+            <div class="card-body">
+              <!-- <h2 class="price-text">Free</h2> -->
+              <p>• Access to basic features</p>
+              <p>• 5000 Patients</p>
+              <p>• Basic reporting</p>
+              <p>• Medium database</p>
+              <p>• Basic chat support</p>
+              <p>• Much More</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
           </div>
-          <div class="card-body">
-            <!-- <h2 class="price-text">Free</h2> -->
-            <p>• Access to basic features</p>
-            <p>• 5000 Patients</p>
-            <p>• Basic reporting</p>
-            <p>• Medium database</p>
-            <p>• Basic chat support</p>
-            <p>• Much More</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Medcare Lite</h3>
+            </div>
+            <div class="card-body">
+              <!-- <h2 class="price-text">$49 / mo</h2> -->
+              <p>• Access to basic features</p>
+              <p>• 5000 Patients</p>
+              <p>• Basic reporting</p>
+              <p>• Medium database</p>
+              <p>• Basic chat support</p>
+              <p>• Much More</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Medcare Plus</h3>
+            </div>
+            <div class="card-body">
+              <!-- <h2 class="price-text">$99 / mo</h2> -->
+              <p>• Access to basic features</p>
+              <p>• 5000 Patients</p>
+              <p>• Basic reporting</p>
+              <p>• Medium database</p>
+              <p>• Basic chat support</p>
+              <p>• Much More</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Medcare Lite</h3>
-          </div>
-          <div class="card-body">
-            <!-- <h2 class="price-text">$49 / mo</h2> -->
-            <p>• Access to basic features</p>
-            <p>• 5000 Patients</p>
-            <p>• Basic reporting</p>
-            <p>• Medium database</p>
-            <p>• Basic chat support</p>
-            <p>• Much More</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
+    <!-- Call to Action -->
 
-      <div class="pricing-column col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Medcare Plus</h3>
+    <section class="colored-section" id="contact">
+      <div class="container-fluid">
+        <h3 class="big-heading">Get In Touch</h3>
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Malabe,</p>
+            <p>Sri Lanka</p>
           </div>
-          <div class="card-body">
-            <!-- <h2 class="price-text">$99 / mo</h2> -->
-            <p>• Access to basic features</p>
-            <p>• 5000 Patients</p>
-            <p>• Basic reporting</p>
-            <p>• Medium database</p>
-            <p>• Basic chat support</p>
-            <p>• Much More</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
 
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-circle-phone"></i>
+            <p>+94 228 8888</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <!-- <i class="icon fas fa-heart fa-4x"></i> -->
+            <p>
+              Treatment at Lanka Hospital is a truly human experience. You're
+              cared for as a person first.
+            </p>
           </div>
         </div>
       </div>
+    </section>
 
+    <!-- Footer -->
 
-
-    </div>
-
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="contact">
-
-    <div class="container-fluid">
-
-      <h3 class="big-heading">Get In Touch</h3>
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fa-sharp fa-solid fa-location-dot"></i>
-          <p>Malabe,</p>
-          <p>Sri Lanka</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fa-solid fa-circle-phone"></i>
-          <p>+94 228 8888</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <!-- <i class="icon fas fa-heart fa-4x"></i> -->
-          <p>Treatment at Lanka Hospital is a truly human experience. You're cared for as a person first.</p>
-        </div>
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2023 Innovative RATS</p>
       </div>
-
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2023 Innovative RATS</p>
-    </div>
-  </footer>
-
-
-</body>
-
+    </footer>
+  </body>
 </html>
